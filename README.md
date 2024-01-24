@@ -1,2 +1,4 @@
 # social-network
-Application for a social network
+Java application with a 4-layered architecture: data access layer ([domain package](https://github.com/Iri25/social-network/tree/main/SocialNetwork/src/main/java/socialnetwork/domain)), persistence layer ([repository package](https://github.com/Iri25/social-network/tree/main/SocialNetwork/src/main/java/socialnetwork/repository)), business layer ([service package](https://github.com/Iri25/social-network/tree/main/SocialNetwork/src/main/java/socialnetwork/service)) and presentation layer ([userinterface package](https://github.com/Iri25/social-network/tree/main/SocialNetwork/src/main/java/socialnetwork/userinterface)). The data are saved in csv files ([data package](https://github.com/Iri25/social-network/tree/main/SocialNetwork/data)). Validations for entity data and tests for functions and validations were performed. The main class is Applications. Key concepts are polymorphism, validations, exceptions, reading from files and storing in files.
+
+Application for a social network. 
