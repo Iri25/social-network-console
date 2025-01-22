@@ -1,8 +1,23 @@
 # social-network-console
-Java application with a 4-layered architecture: data access layer ([domain package](https://github.com/Iri25/social-network/tree/main/SocialNetwork/src/main/java/socialnetwork/domain)), persistence layer ([repository package](https://github.com/Iri25/social-network/tree/main/SocialNetwork/src/main/java/socialnetwork/repository)), business layer ([service package](https://github.com/Iri25/social-network/tree/main/SocialNetwork/src/main/java/socialnetwork/service)) and presentation layer ([userinterface package](https://github.com/Iri25/social-network/tree/main/SocialNetwork/src/main/java/socialnetwork/userinterface)). The data are saved in csv files ([data package](https://github.com/Iri25/social-network/tree/main/SocialNetwork/data)). The strategy model was used to validate the data and classes were defined to treat the exepects ([validators package](https://github.com/Iri25/social-network/tree/main/SocialNetwork/src/main/java/socialnetwork/domain/validators)). Interaction with the user is done from the console.
+Java application with a 4-layered architecture: 
+- data access layer ([domain package](https://github.com/Iri25/social-network/tree/main/SocialNetwork/src/main/java/socialnetwork/domain))
+- persistence layer ([repository package](https://github.com/Iri25/social-network/tree/main/SocialNetwork/src/main/java/socialnetwork/repository))
+- business layer ([service package](https://github.com/Iri25/social-network/tree/main/SocialNetwork/src/main/java/socialnetwork/service))
+- presentation layer ([userinterface package](https://github.com/Iri25/social-network/tree/main/SocialNetwork/src/main/java/socialnetwork/userinterface)). 
 
-Key concepts are abstraction, encapsulation, inheritance, polymorphism, validations, exceptions, reading from files and storing in files.
+The data are saved in csv files ([data package](https://github.com/Iri25/social-network/tree/main/SocialNetwork/data)). The strategy model was used to validate the data and classes were defined to treat the exepects ([validators package](https://github.com/Iri25/social-network/tree/main/SocialNetwork/src/main/java/socialnetwork/domain/validators)). Interaction with the user is done from the console.
 
+## Key concepts:
+- abstraction
+- encapsulation
+- inheritance
+- polymorphism
+- validations
+- exceptions
+- reading from files 
+- storing in files
+
+## Requirements:
 Application for a social network with user interaction from the console which supports operations such as:
 1. Add user
 2. Remove user
